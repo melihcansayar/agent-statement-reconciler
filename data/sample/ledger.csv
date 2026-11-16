@@ -1,0 +1,14 @@
+date,doc_no,doc_type,job_no,applies_to,description,currency,amount,usd_rate,amount_usd
+2026-10-01,OB-2610,OB,,,"Opening balance b/f",EUR,-4200.00,1.0842,-4553.64
+2026-10-03,HAM-24-0121,AGINV,SEA-7781,,"Nordhafen destination charges",EUR,-1850.00,1.0851,-2007.43
+2026-10-05,AEF-2610-044,INV,SEA-7790,,"Ocean freight Izmir-Hamburg, freight collect",EUR,3400.00,1.0838,3684.92
+2026-10-08,PMT-1008,PAYOUT,,OB-2610,"Payment to Nordhafen, opening balance",EUR,4200.00,1.0817,4543.14
+2026-10-10,HAM-24-0123,AGINV,SEA-7795,,"Delivery and customs clearance",EUR,-1200.00,1.0809,-1297.08
+2026-10-12,AEF-2610-051,INV,AIR-3302,,"Air freight Istanbul-Hamburg",EUR,2150.00,1.0826,2327.59
+2026-10-15,HAM-24-0127,AGINV,SEA-7801,,"THC and storage",EUR,-980.00,1.0861,-1064.38
+2026-10-18,RCV-1018,PAYIN,,AEF-2610-044,"Receipt from Nordhafen",EUR,-3375.00,1.0874,-3669.97
+2026-10-20,AEF-CN-2610-007,CN,SEA-7790,,"Credit note, volume rebate",EUR,-300.00,1.0869,-326.07
+2026-10-22,AEF-2610-063,INV,SEA-7812,,"Ocean freight Izmir-Hamburg",EUR,1760.00,1.0855,1910.48
+2026-10-25,PMT-1025,PAYOUT,,HAM-24-0121;HAM-24-0127,"Payment to Nordhafen",EUR,2830.00,1.0832,3065.46
+2026-10-29,HAM-24-0131,AGINV,SEA-7818,,"Delivery order fee",EUR,-640.00,1.0818,-692.35
+2026-10-30,PMT-1030,PAYOUT,,HAM-24-0123,"Payment to Nordhafen",EUR,1200.00,1.0807,1296.84

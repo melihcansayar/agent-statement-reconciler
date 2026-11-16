@@ -1,0 +1,15 @@
+date,reference,description,debit,credit
+2026-10-01,,"Balance brought forward",4200.00,0.00
+2026-10-03,HAM/24/0121,"Our invoice HAM/24/0121, your ref SEA-7781",1850.00,0.00
+2026-10-05,AEF-2610-44,"Your invoice AEF-2610-44",0.00,3400.00
+2026-10-09,,"Payment received, Aegean Express Forwarding",0.00,4200.00
+2026-10-10,HAM/24/0123,"Our invoice HAM/24/0123, your ref SEA-7795",1250.00,0.00
+2026-10-12,AEF2610051,"Your invoice AEF2610051",0.00,2150.00
+2026-10-15,HAM/24/0127,"Our invoice HAM/24/0127, your ref SEA-7801",980.00,0.00
+2026-10-15,HAM/24/0127,"Our invoice HAM/24/0127, your ref SEA-7801",980.00,0.00
+2026-10-17,AEF-2610-044,"Payment to Aegean, your invoice AEF-2610-044",3400.00,0.00
+2026-10-22,AEF-2610-063,"Your invoice AEF-2610-063",0.00,1760.00
+2026-10-26,HAM-24-0121,"Payment received for HAM-24-0121",0.00,1850.00
+2026-10-26,HAM-24-0127,"Payment received for HAM-24-0127",0.00,980.00
+2026-10-27,HAM/24/0129,"Our invoice HAM/24/0129, your ref SEA-7815",1420.00,0.00
+2026-10-29,HAM/24/0131,"Our invoice HAM/24/0131, your ref SEA-7818",640.00,0.00

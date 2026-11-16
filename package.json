@@ -1,0 +1,27 @@
+{
+  "name": "agent-statement-reconciler",
+  "version": "1.0.0",
+  "description": "An AI agent that reconciles overseas agent and intercompany statements against the ledger and surfaces only the exceptions.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Melih Can Sayar",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "reconcile": "tsx src/cli.ts",
+    "demo": "tsx src/cli.ts --ledger data/sample/ledger.csv --statement data/sample/agent-statement-hamburg.txt --fx data/sample/fx-rates.csv --out out",
+    "demo:csv": "tsx src/cli.ts --ledger data/sample/ledger.csv --statement data/sample/agent-statement-hamburg.csv --fx data/sample/fx-rates.csv --agent \"Nordhafen Logistik GmbH\" --period-end 2026-10-31 --out out",
+    "mcp": "tsx src/mcp-server.ts",
+    "test": "tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0",
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5.7.0"
+  }
+}
