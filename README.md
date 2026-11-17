@@ -1,5 +1,7 @@
 # agent-statement-reconciler
 
+[![Available on Agensi](https://img.shields.io/badge/Agensi-free%20agent%20skill-2563eb)](https://www.agensi.io/skills/agent-statement-reconciler)
+
 An AI agent that reconciles overseas agent and intercompany statements against the ledger. The agent matches everything that ties and explains the rest. It proposes the journals and drafts the email to the agent. **A person approves anything that is posted or sent.**
 
 I spent 9 years reconciling overseas agent accounts by hand at an international freight forwarder. This is the tool I wanted then.
@@ -104,7 +106,7 @@ There is deliberately no tool that posts to a ledger.
 
 [`skills/agent-statement-reconciler`](skills/agent-statement-reconciler) packages the reconciler as a `SKILL.md` skill for Claude Code, Cursor, Codex CLI and other agents that read the format. It tells the agent when to use the reconciler, how to prepare and check the inputs (`scripts/check-inputs.mjs`), how to read the balance proof and the exceptions, and what it must never do: post to a ledger or send the email.
 
-To install it, copy the folder into your agent's skills directory, for example `~/.claude/skills/` for Claude Code.
+To install it, copy the folder into your agent's skills directory, for example `~/.claude/skills/` for Claude Code, or install it from [Agensi](https://www.agensi.io/skills/agent-statement-reconciler).
 
 ## Controls
 
