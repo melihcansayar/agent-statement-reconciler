@@ -100,6 +100,12 @@ Then ask: *"Reconcile the Hamburg statement for October, explain S08, and give m
 
 There is deliberately no tool that posts to a ledger.
 
+## Use it as an agent skill
+
+[`skills/agent-statement-reconciler`](skills/agent-statement-reconciler) packages the reconciler as a `SKILL.md` skill for Claude Code, Cursor, Codex CLI and other agents that read the format. It tells the agent when to use the reconciler, how to prepare and check the inputs (`scripts/check-inputs.mjs`), how to read the balance proof and the exceptions, and what it must never do: post to a ledger or send the email.
+
+To install it, copy the folder into your agent's skills directory, for example `~/.claude/skills/` for Claude Code.
+
 ## Controls
 
 - The agent has read-only access. Journals are proposals with the status `proposed – needs approval`.

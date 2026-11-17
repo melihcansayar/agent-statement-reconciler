@@ -1,0 +1,4 @@
+date,doc_no,doc_type,job_no,applies_to,description,currency,amount,usd_rate,amount_usd
+2026-10-01,OB-2610,OB,,,"Opening balance b/f",EUR,-4200.00,1.0842,-4553.64
+2026-10-05,AEF-2610-044,INV,SEA-7790,,"Our invoice to the agent",EUR,3400.00,1.0838,3684.92
+2026-10-08,PMT-1008,PAYOUT,,OB-2610,"Payment to the agent, opening balance",EUR,4200.00,1.0817,4543.14
